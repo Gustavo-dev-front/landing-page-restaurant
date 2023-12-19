@@ -1,0 +1,21 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.title {
+  font-family: 'Pacifico', cursive;
+}
+
+#cabecalho {
+  background-color: #e15f41;
+}
+
+#cabecalho .navbar-brand.title,
+#cabecalho .nav-link  {
+  color: #fff;
+}
+
+#cabecalho .nav-link.active {
+  color: #e15f41;
+  background-color: #fff;
+}
