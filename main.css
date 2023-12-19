@@ -2,7 +2,8 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.title {
+.title,
+.title * {
   font-family: 'Pacifico', cursive;
 }
 
@@ -11,7 +12,7 @@
 }
 
 #cabecalho .navbar-brand.title,
-#cabecalho .nav-link  {
+#cabecalho .nav-link {
   color: #fff;
 }
 
@@ -24,6 +25,15 @@
   background-color: #fff;
 }
 
-.navbar-toggler:focus {
- 
+.text-colored {
+  color: #e15f41;
+}
+
+#carousel img {
+  max-height: 760px;
+  object-fit: cover;
+}
+
+#sobre {
+  background-color: #ffeae6;
 }
