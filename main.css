@@ -19,3 +19,11 @@
   color: #e15f41;
   background-color: #fff;
 }
+
+.navbar-toggler {
+  background-color: #fff;
+}
+
+.navbar-toggler:focus {
+ 
+}
