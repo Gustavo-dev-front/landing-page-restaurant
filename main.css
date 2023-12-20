@@ -2,6 +2,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+textarea {
+  resize: none;
+}
+
 .title,
 .title * {
   font-family: 'Pacifico', cursive;
@@ -49,4 +53,16 @@
 #cardapio .nav-link:hover,
 #cardapio .nav-link:focus {
   color: #e15f41;
+}
+
+.form-control:focus,
+#contato button:focus,
+#contato button:hover {
+  box-shadow: 0 0 0 5px #ffeae6;
+  border: 1px solid #e15f41;
+}
+
+#contato button { 
+  background-color: #e15f41;
+  color: #fff;
 }
