@@ -21,7 +21,7 @@
   background-color: #fff;
 }
 
-.navbar-toggler {
+#cabecalho .navbar-toggler {
   background-color: #fff;
 }
 
@@ -34,6 +34,19 @@
   object-fit: cover;
 }
 
-#sobre {
+#sobre,
+#cardapio {
   background-color: #ffeae6;
+}
+
+#cardapio .nav-link.active,
+#cardapio .nav-link.active:hover,
+#cardapio .nav-link.active:focus {
+  background-color: #e15f41;
+  color: #fff;
+}
+
+#cardapio .nav-link:hover,
+#cardapio .nav-link:focus {
+  color: #e15f41;
 }
